@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I have learned on how to make resonsive images using the `<picture>` element, making the card responsive by using grid and flexbox for larger screens. this was one of my setbacks with this projects. I've also learned on how to easily add icons using the `data-icon="shopping-cart"` by adding it into  the `<button>` element and editing it in CSS using the `::before` attribute. 
+I have learned on how to make resonsive images using the `<picture>` element, making the card responsive by using grid and flexbox for larger screens which was one of my setbacks with this project. I've also learned on how to easily add icons using the `data-icon="shopping-cart"` and adding it into  the `<button>` element and styling the icon in CSS using the `::before` attribute. 
 
 ### Useful resources
 
