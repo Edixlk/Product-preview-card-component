@@ -17,41 +17,47 @@
   
 </head>
 <body>
-
-     <main class="wrapper">
-        <article class="prod-card">
-
-          <div class="prod-img">
-
   
-                  <img src="./images/image-product-mobile.jpg" alt="product_image">
-        
 
-          </div>
+  <main class="wrapper">
+
+     <article id="product__card">
+          
+          <!--Card image-->
+            <picture class="product__image">
+              <!-- Desktop-->
+                <source media="(min-width: 600px)" srcset="./images/image-product-desktop.jpg">
+            
+
+                <!--image (default)-->
+                <img src="./images/image-product-mobile.jpg" alt="product_image">
+            </picture>
            
              
                   
-            <div class="prod-info">
-              <h6 class="cater-txt">Perfume</h6>
-              <h2>Gabrielle Essence Eau De Parfum</h2>
-              <p>
+            <div class="product__content">
+
+              <h6 class="catergory__txt">Perfume</h6>
+              <h2 class="product__title">Gabrielle Essence Eau De Parfum</h2>
+              <p class="product__description">
                A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+               Perfumer-Creator for the House of CHANEL.
               </p>
 
-              <div class="price-section">
-                 <span class="pricetag">$149.99</span>
-              <span class="old-pricetag"><strike>$169.99</strike></span>
-
-              </div>
-             
-
+              <div class="price__section">
+                 <span class="new__pricetag">$149.99</span>
+              <sup class="old__pricetag"><strike>$169.99</strike></sup>
+             </div>
           
-                <button> <span><img src="./images/icon-cart.svg" alt="cart_image"></span>Add to cart</button>
+                <button class="button" type="button" data-icon="shopping-cart">Add to cart</button>
          
             </div>
         </article>
-     </main>
+
+      </main>
+     
+       
+   
 
   
   </div>
