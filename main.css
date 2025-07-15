@@ -243,8 +243,9 @@ button:hover {
 
   .product__content {
     width: 600px;
-    padding: 1em 2em;
-    gap: 1.2em;
+  
+    padding: 2em;
+    gap: 1em;
   }
 
   img,
