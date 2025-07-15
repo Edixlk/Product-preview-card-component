@@ -1,15 +1,18 @@
 /* local fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
-  font-family: Montserrat;
-  src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf) format("woff2");
+  font-family:  Montserrat;
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Fraunces;
-  src: url(/fonts/Fraunces-VariableFon5t_wght.ttf) format("woff2");
+  src: url(./fonts/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
 }
-
 /* 1. Use a more-intuitive box-sizing model */
+
+
 *,
 *::before,
 *::after {
@@ -104,7 +107,7 @@ h6 {
 
   /* font family*/
 
-  --base-font: Montserrat;
+  --base-font:Montserrat;
   --accent-font: Fraunces;
   --fraunces-fontweight: 700;
 }
@@ -152,10 +155,12 @@ body {
 .product__content {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: .8em;
   padding: 1em;
   height: auto;
 }
+
+
 
 .product__title,
 .new__pricetag {
@@ -166,10 +171,11 @@ body {
 }
 
 .product__description {
-  font-weight: var(--bold-weight);
+  font-weight: var(--regular-weight);
   color: var(--neutral-grey);
   font-size: var(--paragraph-size);
   line-height: 1.5;
+  margin-bottom: 1em;
 }
 
 .price__section {
@@ -180,7 +186,7 @@ body {
 .old__pricetag {
   line-height: 1px;
   color: var(--neutral-grey);
-  font-weight: var(--bold-weight);
+  font-weight: var(--regular-weight);
   font-size: 14px;
 }
 
